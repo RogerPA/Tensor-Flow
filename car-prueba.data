@@ -1,0 +1,8 @@
+low,low,4,2,big,high
+low,low,5more,4,med,med
+low,low,5more,more,big,low
+high,vhigh,3,4,big,med
+low	low	4	2	big	high	unacc
+low	low	5more	4	med	med	unacc
+low	low	5more	more	big	low	good
+high	vhigh	3	4	big	med	unacc 
