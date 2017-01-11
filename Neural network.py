@@ -25,7 +25,7 @@ def read_file(doc):
 	feature_set = []
 	file_lines = []
 	with open(doc,'r') as file:
-		file_lines += [line.split() for line in file] 
+		file_lines += [line.split(',') for line in file] 
 	for line in file_lines:
 		feature_vect = [buying[line[0]], maint[line[1]], doors[line[2]], person[line[3]], lugboot[line[4]], safety[line[5]]]
 		feature_label = labels[line[6]]
